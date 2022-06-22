@@ -1,8 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby";
 import './index.scss'
+import "normalize.css"
 
-// markup
+
 const IndexPage = () => {
     const test = () => {
         return {
