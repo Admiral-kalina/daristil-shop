@@ -6,7 +6,7 @@ const Sale = () => {
 
     return (
         <div className={styles.header} >
-             <h3>Sale</h3>
+             <p className={styles.sale}>SALE</p>
         </div>
     );
 };

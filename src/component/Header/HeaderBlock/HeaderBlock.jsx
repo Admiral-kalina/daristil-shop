@@ -11,7 +11,7 @@ const HeaderBlock = () => {
                     <span></span>
                 </div>
                 <div>
-                    <h1>daristil</h1>
+                    <p className={styles.logoText}>daristil</p>
                 </div>
                     <div className={styles.nav}>
                         <li>RU</li>
