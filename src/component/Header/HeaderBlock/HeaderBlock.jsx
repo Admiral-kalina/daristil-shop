@@ -1,15 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import * as styles from "./styles.module.scss"
 import user from "../../../images/user.png"
 import shoppingBag from "../../../images/shopping-bag.png"
+import Hamburger from "./Hamburger";
+
 const HeaderBlock = () => {
     return (
         <section className={styles.section}>
             <div className={styles.block}>
-                <div className={styles.burger}>
-                    <span></span>
-                    <span></span>
-                </div>
+              <Hamburger />
                 <div>
                     <p className={styles.logoText}>daristil</p>
                 </div>
