@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Naruto = () => {
+
+const Index = () => {
     return (
         <div>
-
+            ABOUT
         </div>
     );
 };
 
-export default Naruto;
+export default Index;
