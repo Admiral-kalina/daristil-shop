@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Footer = () => {
+
+const Index = () => {
     return (
         <div>
-            Footer
+            FAQ
         </div>
     );
 };
 
-export default Footer;
+export default Index;

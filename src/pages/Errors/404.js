@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import Header from "../component/Header";
+import Header from "../../component/Header/Header";
 
 // styles
 const pageStyles = {
@@ -29,7 +29,6 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>

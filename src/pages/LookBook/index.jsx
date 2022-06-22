@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const Home = () => {
+const Index = () => {
     return (
         <div>
-            gtyu
+           LookBook
         </div>
     );
 };
 
-export default Home;
+export default Index;

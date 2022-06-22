@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Header = () => {
+
+const Index = () => {
     return (
         <div>
-            Header
+            Help
         </div>
     );
 };
 
-export default Header;
+export default Index;
