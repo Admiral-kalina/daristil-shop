@@ -1,0 +1,52 @@
+.section{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+    height: 100%;
+}
+
+.burger{
+    height: 30px;
+    width: 20px;
+    padding: 0 10px;
+    margin: 0 25px;
+    cursor: pointer;
+    position: relative;
+    :first-child{
+        position: absolute;
+        top: 5px;
+        content: '';
+        background-color: #fff;
+        display: block;
+        width: 30px;
+        height: 4px;
+    }
+    :last-child{
+        position: absolute;
+        top: 20px;
+        content: '';
+        background-color: #fff;
+        display: block;
+        width: 30px;
+        height: 4px;
+    }
+}
+
+.nav{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
