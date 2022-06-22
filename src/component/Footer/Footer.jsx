@@ -3,8 +3,10 @@ import {Link} from "gatsby";
 import YoutubeIcon from "../../assets/YoutubeIcon";
 import InstagramIcon from "../../assets/InstagramIcon";
 import TelegramIcon from "../../assets/TelegramIcon";
+import FooterGif from "../../images/footer_.gif";
 
 import * as styles from "./styles.module.scss"
+import * as style from "../Header/HeaderBlock/styles.module.scss";
 
 const Footer = () => {
     return (
@@ -20,12 +22,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footer_socials}>
-                <ul>
+                <nav>
                     <InstagramIcon />
                     <TelegramIcon />
                     <YoutubeIcon />
-                </ul>
+                </nav>
             </div>
+            <img className={styles.footer_gif} src={FooterGif} alt=""/>
+            <p className={styles.copyright}>© 2021 daristil</p>
         </footer>
     );
 };

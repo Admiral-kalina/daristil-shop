@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="add header and normilize">
-      <change afterPath="$PROJECT_DIR$/src/assets/InstagramIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/TelegramIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/YoutubeIcon.jsx" afterDir="false" />
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="footer develop">
+      <change afterPath="$PROJECT_DIR$/src/images/footer_.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/YoutubeIcon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/YoutubeIcon.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Footer/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.scss" afterDir="false" />
@@ -85,7 +82,7 @@
       <workItem from="1655901867928" duration="692000" />
       <workItem from="1655906360189" duration="255000" />
       <workItem from="1655911189587" duration="304000" />
-      <workItem from="1655923398779" duration="5822000" />
+      <workItem from="1655923398779" duration="8473000" />
     </task>
     <task id="LOCAL-00001" summary="add footer&#10;add fonts&#10;rework routing&#10;fixed">
       <created>1655899900207</created>
@@ -101,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655902198774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="footer develop">
+      <created>1655929337425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655929337425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +126,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add footer&#10;add fonts&#10;rework routing&#10;fixed" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="footer develop" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer develop" />
   </component>
 </project>
