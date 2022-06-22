@@ -1,16 +1,36 @@
 import React from 'react';
-import * as styles from "./styles.module.scss"
 import {Link} from "gatsby";
+import YoutubeIcon from "../../assets/YoutubeIcon";
+import InstagramIcon from "../../assets/InstagramIcon";
+import TelegramIcon from "../../assets/TelegramIcon";
+import FooterGif from "../../images/footer_.gif";
+
+import * as styles from "./styles.module.scss"
+import * as style from "../Header/HeaderBlock/styles.module.scss";
 
 const Footer = () => {
     return (
-        <div className={styles.footer}>
-            <ul className={styles.footer_nav}>
-                <Link to={`/About`}>About</Link>
-                <Link to={`/Help`}>Help</Link>
-                <Link to={`/FAQ`}>FAQ</Link>
-            </ul>
-        </div>
+        <footer>
+            <nav>
+                <li><Link to={`/About`}>about</Link></li>
+                <li><Link to={`/Help`}>help</Link></li>
+                <li><Link to={`/FAQ`}>faq</Link></li>
+            </nav>
+            <div className={styles.footer_contacts}>
+                <div className={styles.footer_email}>
+                    <a href="mailto:info.daristil@gmail.com">info.daristil@gmail.com</a>
+                </div>
+            </div>
+            <div className={styles.footer_socials}>
+                <nav>
+                    <InstagramIcon />
+                    <TelegramIcon />
+                    <YoutubeIcon />
+                </nav>
+            </div>
+            <img className={styles.footer_gif} src={FooterGif} alt=""/>
+            <p className={styles.copyright}>© 2021 daristil</p>
+        </footer>
     );
 };
 
