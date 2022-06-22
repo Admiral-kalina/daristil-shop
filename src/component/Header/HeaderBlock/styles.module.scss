@@ -3,7 +3,7 @@
     width: 100%;
     background-color: black;
     color: #fff;
-
+  position: relative;
 }
 
 .block{
@@ -15,6 +15,7 @@
 }
 
 .burger{
+   visibility: hidden;
     height: 30px;
     width: 20px;
     padding: 0 10px;
@@ -39,6 +40,18 @@
         width: 30px;
         height: 4px;
     }
+    :active{
+        background-color: red;
+    }
+}
+@media screen and (max-width: 1024px){
+    .burger{
+        visibility: visible;
+    }
+}
+
+.logoText{
+    font-size: 24px;
 }
 
 .nav{
@@ -47,6 +60,135 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+
+.headerMenuIcon {
+  transition: all 0.3s;
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 10px;
+  width: 100px;
+  height: 18px;
+  cursor: pointer;
+  z-index: 5;
+
+  span {
+    top: 8px;
+    left: 0px;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s;
+    &:first-child {
+      top: 0px;
+    }
+    &:last-child {
+      top: auto;
+      bottom: 0px;
+    }
+  }
+
+
+  @media screen and (min-width: 1024px){
+    visibility: hidden;
+  }
+}
+.headerMenuIconActive {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 10px;
+  width: 100px;
+  height: 18px;
+  cursor: pointer;
+  z-index: 5;
+
+  span {
+    top: 8px;
+    left: 0px;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    transform: scale(0);
+    transition: all 0.3s;
+    &:first-child {
+      background-color: #fff;
+      transform: rotate(-45deg);
+      top: 8px;
+    }
+    &:last-child {
+      background-color: #fff;
+      transform: rotate(45deg);
+      bottom: 8px;
+    }
+  }
+  @media screen and (min-width: 1024px){
+    visibility: hidden;
+  }
+}
+
+.modal {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: calc(100vh - 90px);
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  transition: 0.4s;
+  opacity: 0;
+
+  .content {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content p {
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.5);
+      color: #ff4c12;
+    }
+  }
+}
+
+.modalActive{
+  opacity: 1;
+  transition: 0.4s ;
+  width: 100%;
+  //animation: modal-animation 0.4s forwards;
+
+  //@keyframes modal-animation {
+  //  0%{
+  //    //height: 0;
+  //
+  //    opacity: 0;
+  //  }
+  //  100%{
+  //    transform: scaleX(100%);
+  //    opacity: 1;
+  //    width: 100%;
+  //    //height: calc(100vh - 90px);
+  //  }
+  //}
+  }
+
+
+  .modalGif{
+    width: 100px;
+    height: 100px;
+
 }
 
 
