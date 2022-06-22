@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/.sass-cache/0078f92db7a54fb112f9064bedf0179b99d0389f/styles.module.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/styles.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/user.png" afterDir="false" />
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="add header and normilize">
+      <change afterPath="$PROJECT_DIR$/src/assets/InstagramIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/TelegramIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/YoutubeIcon.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/Sale/Sale.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Sale/Sale.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/Sale/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Sale/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/shopping-bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/shopping-bag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Footer/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -51,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/vetal/IT/daristil-shop/src/component",
+    "last_opened_file_path": "/home/vetal/IT/daristil-shop/src/images",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -64,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/component" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -81,6 +83,9 @@
       <workItem from="1655901291264" duration="441000" />
       <workItem from="1655901741950" duration="116000" />
       <workItem from="1655901867928" duration="692000" />
+      <workItem from="1655906360189" duration="255000" />
+      <workItem from="1655911189587" duration="304000" />
+      <workItem from="1655923398779" duration="5822000" />
     </task>
     <task id="LOCAL-00001" summary="add footer&#10;add fonts&#10;rework routing&#10;fixed">
       <created>1655899900207</created>
