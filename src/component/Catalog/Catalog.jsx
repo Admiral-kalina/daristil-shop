@@ -1,14 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import ProductsList from "./ProductsList/ProductsList";
 import * as styles from "./styles.module.scss"
-import {useProductsContext} from "../../Context/context";
+import {MyContext} from "../../Context/store";
 
 const Catalog = () => {
-    const {products, setProducts} = useProductsContext()
-    console.log(products)
+    const lanVal = useContext(MyContext)
+
     return (
         <section>
-            <ProductsList products={products? products : []}/>
+
         </section>
     );
 };

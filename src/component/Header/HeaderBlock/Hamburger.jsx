@@ -1,5 +1,4 @@
 import React from 'react';
-import * as styles from "./styles.module.scss";
 import modalDs from "../../../images/ds_.gif";
 import {useState} from 'react';
 import * as style from "./styles.module.scss"
