@@ -10,11 +10,11 @@ import Footer from "../component/Footer/Footer";
 const IndexPage = () => {
 
     return (
-        <StateProvider>
-            <Header/>
+
+
              <Catalog/>
-            <Footer/>
-        </StateProvider>
+
+
     )
 }
 

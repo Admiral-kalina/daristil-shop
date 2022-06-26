@@ -6,14 +6,15 @@ import {MyContext, useMyContext} from "../../Context/store";
 
 
 const Catalog = () => {
-    const a = useMyContext()
+    const {state, setState} = useMyContext()
 
-
+    const products = state.serverData;
+    const language = state.language;
+    console.log(products)
 
     return (
         <section>
-
-        <div></div>
+            <ProductsList products={products} language={language}/>
         </section>
     );
 };

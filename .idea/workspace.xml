@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="new Context">
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="context v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Context/countryReducer/countryReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/countryReducer/countryReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context/countryReducer/countryReducer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Context/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Catalog/Catalog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/Catalog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Catalog/ProductItem/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/ProductsList/ProductItem/ProductItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Catalog/ProductItem/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/ProductsList/ProductItem/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Catalog/ProductsList/ProductsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/ProductsList/ProductsList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
@@ -46,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Q:/proj/daristil-shop&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "Q:/proj/daristil-shop",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
@@ -73,6 +75,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Q:\proj\daristil-shop\src\component\Catalog\ProductsList" />
       <recent name="C:\Users\user\Desktop\work\daristil-shop\src\component\Catalog\ProductsItem" />
     </key>
   </component>
@@ -103,7 +106,8 @@
       <workItem from="1656186179365" duration="3215000" />
       <workItem from="1656228861919" duration="351000" />
       <workItem from="1656230067594" duration="2901000" />
-      <workItem from="1656237390531" duration="20501000" />
+      <workItem from="1656237390531" duration="20626000" />
+      <workItem from="1656270129652" duration="5317000" />
     </task>
     <task id="LOCAL-00001" summary="add footer&#10;add fonts&#10;rework routing&#10;fixed">
       <created>1655899900207</created>
@@ -133,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656231491511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="context v1">
+      <created>1656268225737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656268225737</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +167,18 @@
     <MESSAGE value="commit" />
     <MESSAGE value="footer develop" />
     <MESSAGE value="new Context" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Context" />
+    <MESSAGE value="context v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="context v1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/Catalog/Catalog.jsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

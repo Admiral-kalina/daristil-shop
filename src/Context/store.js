@@ -5,8 +5,9 @@ import {getProducts, setProducts} from "../api/products";
 
 
 const initial = {
-    language: {lang: 'EN'},
-    serverData: {},
+
+    language: '',
+    serverData: [],
 };
 
 export const MyContext = createContext(initial)
@@ -24,12 +25,15 @@ const StateProvider = ({children, defaultState = initial}) => {
 
     const [state, setState] = useState(defaultState)
 
-    const getData = async () =>{
+    const getData = async () => {
         const data = await getProducts()
-
         setState(
             {...state, serverData: data}
         )
+    }
+
+    const changeState = state => {
+        setState(state)
     }
 
     useEffect(()=>{
@@ -37,7 +41,7 @@ const StateProvider = ({children, defaultState = initial}) => {
     },[])
 
     return (
-        <MyContext.Provider value={state}>
+        <MyContext.Provider value={{state, setState: changeState}}>
             {children}
         </MyContext.Provider>)
 };
