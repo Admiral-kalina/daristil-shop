@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="footer develop">
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="new Context">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Context/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" afterDir="false" />
@@ -97,7 +97,7 @@
       <workItem from="1656161445225" duration="12617000" />
       <workItem from="1656186179365" duration="3215000" />
       <workItem from="1656228861919" duration="351000" />
-      <workItem from="1656230067594" duration="1367000" />
+      <workItem from="1656230067594" duration="2901000" />
     </task>
     <task id="LOCAL-00001" summary="add footer&#10;add fonts&#10;rework routing&#10;fixed">
       <created>1655899900207</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655929337425</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new Context">
+      <created>1656231491511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656231491511</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +149,7 @@
     <MESSAGE value="add footer&#10;add fonts&#10;rework routing&#10;fixed" />
     <MESSAGE value="commit" />
     <MESSAGE value="footer develop" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer develop" />
+    <MESSAGE value="new Context" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Context" />
   </component>
 </project>

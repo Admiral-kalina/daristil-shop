@@ -6,13 +6,11 @@ import shoppingBag from "../../../images/shopping-bag.png"
 import Hamburger from "./Hamburger";
 import {MyContext} from "../../../Context/store";
 
-const initialState = {
-    lang: 'EN'
-}
+
 
 const HeaderBlock = () => {
     const context = useContext(MyContext)
-    const  [state, dispatch] = useReducer(countryReducer, context);
+    const  [state, dispatch] = useReducer(countryReducer, context.language);
     console.log(state)
 
 
@@ -24,7 +22,7 @@ const HeaderBlock = () => {
                     <p className={styles.logoText}>daristil</p>
                 </div>
                     <div className={styles.nav}>
-                        <button onClick={()=> dispatch({type:'LANG_CHANGE'})} >RU</button>
+                        <button onClick={()=> dispatch({type:'LANG_CHANGE'})} >{state.lang}</button>
                         <li><img src={user} alt=""/></li>
                         <li><img src={shoppingBag} alt=""/></li>
                     </div>
