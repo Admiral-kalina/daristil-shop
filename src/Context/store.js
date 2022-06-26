@@ -1,6 +1,9 @@
 import React, {createContext, useReducer} from 'react';
 
-const initialState = {lang: 'en', currency: 'USD'};
+const initialState = {
+    language: {lang: 'en', currency: 'USD'},
+    serverData:{}
+};
 export const MyContext = createContext(initialState);
 
 const StateProvider = ({children}) => {

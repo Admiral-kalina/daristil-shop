@@ -11,8 +11,11 @@ const initialState = {
 }
 
 const HeaderBlock = () => {
-    const val = useContext(MyContext)
-    console.log(MyContext)
+    const context = useContext(MyContext)
+    const  [state, dispatch] = useReducer(countryReducer, context);
+    console.log(state)
+
+
     return (
         <section className={styles.section}>
             <div className={styles.block}>
@@ -21,7 +24,7 @@ const HeaderBlock = () => {
                     <p className={styles.logoText}>daristil</p>
                 </div>
                     <div className={styles.nav}>
-                        <button>RU</button>
+                        <button onClick={()=> dispatch({type:'LANG_CHANGE'})} >RU</button>
                         <li><img src={user} alt=""/></li>
                         <li><img src={shoppingBag} alt=""/></li>
                     </div>
