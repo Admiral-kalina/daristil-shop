@@ -6,7 +6,7 @@ import {getProducts, setProducts} from "../api/products";
 
 const initial = {
 
-    language: '',
+    language: 'EN',
     serverData: [],
 };
 

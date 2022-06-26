@@ -9,7 +9,7 @@ import { useMyContext} from "../../../Context/store";
 
 const HeaderBlock = () => {
     const {state, setState} = useMyContext()
-    debugger;
+
     return (
         <section className={styles.section}>
             <div className={styles.block}>
