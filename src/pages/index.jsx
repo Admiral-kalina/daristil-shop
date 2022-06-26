@@ -1,29 +1,17 @@
 import * as React from "react"
-import { Link } from "gatsby";
+import Catalog from "../component/Catalog/Catalog";
 import './index.scss'
 import "normalize.css"
-import {useProductsContext} from "../Context/context";
-import Catalog from "../component/Catalog/Catalog";
-
+import StateProvider from "../Context/store";
 
 
 const IndexPage = () => {
-        const  {products, setProducts} = useProductsContext()
 
-    console.log(products)
-
-
-    const test = () => {
-        return {
-            1: ``
-        }
-    }
-  return (
-      <div >
-          <Link to={`/Home`}>smotrya kakoy fabric scolco ditails</Link>
-          <Catalog/>
-      </div>
-  )
+    return (
+        <StateProvider>
+            <Catalog/>
+        </StateProvider>
+    )
 }
 
 export default IndexPage
