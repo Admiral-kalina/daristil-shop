@@ -10,8 +10,8 @@ const Catalog = () => {
 
     const products = state.serverData;
     const language = state.language;
-    console.log(products)
 
+    console.log(products)
     return (
         <section>
             <ProductsList products={products} language={language}/>
