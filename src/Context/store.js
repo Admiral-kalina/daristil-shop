@@ -5,9 +5,9 @@ import {getProducts, setProducts} from "../api/products";
 
 
 const initial = {
-
     language: 'EN',
     serverData: [],
+    filteredData:[],
 };
 
 export const MyContext = createContext(initial)
