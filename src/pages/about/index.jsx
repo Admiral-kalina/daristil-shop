@@ -5,7 +5,7 @@ import * as styles from "./styles.module.scss"
 
 
 
-const Index = (props) => {
+const Index = () => {
     return (
             <div className={styles.about_container}>
                 <p className={styles.about_text}>
