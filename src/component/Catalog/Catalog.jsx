@@ -1,12 +1,12 @@
-import React, {useContext, useEffect, useReducer, useState} from 'react';
-import ProductsList from "./ProductsList/ProductsList";
-import * as styles from "./styles.module.scss"
-import {MyContext, useMyContext} from "../../Context/store";
+import React from 'react';
+import ProductsList from "../ProductsList/ProductsList";
+
+import { useContextState} from "../../Context/store";
 
 
 
 const Catalog = () => {
-    const {state, setState} = useMyContext()
+    const {state} = useContextState()
 
     const products = state.serverData;
     const language = state.language;

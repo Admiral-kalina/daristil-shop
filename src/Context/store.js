@@ -1,8 +1,6 @@
-
-import React, {createContext, useContext, useEffect, useState} from 'react';
-import {getProducts, setProducts} from "../api/products";
-
-
+import React, {createContext, useContext, useEffect, useReducer} from 'react';
+import {getProducts} from "../api/products";
+import {reducers} from "./reducers";
 
 const initial = {
     language: 'EN',
@@ -12,16 +10,16 @@ const initial = {
 
 export const MyContext = createContext(initial)
 
-export const useMyContext = () => {
+export const useContextState = () => {
 
     const context = useContext(MyContext);
     if (!context) {
-        throw Error("useCurrencyContext should br used within a CurrencyProvider");
+        throw Error("useContext should br used within a CurrencyProvider");
     }
     return context;
 }
 
-const StateProvider = ({children, defaultState = initial}) => {
+const StateProvider = ({children,  initial}) => {
 
     const [state, setState] = useState(defaultState)
 
@@ -32,16 +30,12 @@ const StateProvider = ({children, defaultState = initial}) => {
         )
     }
 
-    const changeState = state => {
-        setState(state)
-    }
-
-    useEffect(()=>{
-        getData()
+    useEffect(() => {
+        getData();
     },[])
 
     return (
-        <MyContext.Provider value={{state, setState: changeState}}>
+        <MyContext.Provider value={{state, dispatch}}>
             {children}
         </MyContext.Provider>)
 };

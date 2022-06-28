@@ -22,14 +22,7 @@ const HeaderBlock = () => {
                         <li className={styles.logoText}><Link to={`/ `}>daristil</Link></li>
                     </ul>
                 </div>
-                    <div className={styles.nav}>
-                        <button onClick={() =>
-                            setState(
-                                {...state,language:state.language === "EN" ? 'UA' : 'EN'}
-                            )}>{state.language}</button>
-                        <li><img src={user} alt=""/></li>
-                        <li><img src={shoppingBag} alt=""/></li>
-                    </div>
+                <SelectLanguage/>
             </div>
         </section>
     );
