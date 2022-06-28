@@ -1,17 +1,18 @@
-import React, {useReducer, useContext} from 'react';
-import * as styles from "./styles.module.scss"
-import user from "../../../images/user.png"
-import shoppingBag from "../../../images/shopping-bag.png"
-import Hamburger from "./Hamburger";
-import { useMyContext} from "../../../Context/store";
+import React from 'react';
 import {Link} from "gatsby";
+
+//components
+import Hamburger from "./Hamburger";
+
+//helpers
+import SelectLanguage from "../../SelectLanguage/SelectLanguage";
+
+//styles
+import * as styles from "./styles.module.scss"
 
 
 
 const HeaderBlock = () => {
-    const {state, setState} = useMyContext()
-
-
 
     return (
         <section className={styles.section}>

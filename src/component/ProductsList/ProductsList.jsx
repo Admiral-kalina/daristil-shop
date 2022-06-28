@@ -10,7 +10,10 @@ const ProductsList = ({products, language}) => {
            <div className={styles.container}>
                <div className={styles.table}>
                       {products.map(item =>
-                         <ProductItem key={item.id} products={item} language={language}/>
+                          <Link to={`/products/${item.id}`}>
+                              <Index key={item.id} products={item} language={language}/>
+                          </Link>
+
                       )}
                </div>
            </div>

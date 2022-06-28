@@ -3,9 +3,12 @@ import {getProducts} from "../api/products";
 import {reducers} from "./reducers";
 
 const initial = {
-    language: 'EN',
-    serverData: [],
-    filteredData:[],
+    products: {
+        serverData: [],
+    },
+    user: {
+        language: 'EN',
+    }
 };
 
 export const MyContext = createContext(initial)
@@ -18,16 +21,24 @@ export const useContextState = () => {
     }
     return context;
 }
+                        //slices = {products: productsReducer, user: userReducer}
+const combineReducers = (slices) => (state, action) =>
+    Object.keys(slices).reduce( // use for..in loop, if you prefer it
+        (acc, prop) => ({
+            ...acc,
+            [prop]: slices[prop](acc[prop], action),
+        }),
+        state
+    );
+
 
 const StateProvider = ({children,  initial}) => {
 
-    const [state, setState] = useState(defaultState)
+    const [state, dispatch] = useReducer(combineReducers(reducers), initial);
 
     const getData = async () => {
         const data = await getProducts()
-        setState(
-            {...state, serverData: data}
-        )
+        dispatch({type: "SET_PRODUCTS", payload: data})
     }
 
     useEffect(() => {
