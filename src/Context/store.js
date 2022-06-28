@@ -32,7 +32,7 @@ const combineReducers = (slices) => (state, action) =>
     );
 
 
-const StateProvider = ({children,  initial}) => {
+const StateProvider = ({children}) => {
 
     const [state, dispatch] = useReducer(combineReducers(reducers), initial);
 
