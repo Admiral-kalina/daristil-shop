@@ -1,21 +1,19 @@
 import React, {useState} from 'react'
-
 //helpers
 import {useContextState} from "../../Context/store";
-
+//action
+import {setLanguage} from "../../Context/user/actionHandler";
 //assets
 import user from "../../images/user.png";
 import shoppingBag from "../../images/shopping-bag.png";
-
 //styles
 import * as styles from "../Header/HeaderBlock/styles.module.scss";
+
 
 const LANGUAGES = {
     EN: "EN",
     RU: "RU",
 };
-
-const setLanguage = (payload) => ({type: "SET_LANGUAGE", payload})
 
 const SelectLanguage = () => {
     const {state, dispatch} = useContextState();

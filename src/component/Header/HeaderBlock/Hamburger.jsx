@@ -1,7 +1,9 @@
 import React from 'react';
-import modalDs from "../../../images/ds_.gif";
 import {useState} from 'react';
+//styles
 import * as style from "./styles.module.scss"
+//images
+import modalDs from "../../../images/ds_.gif";
 
 const Hamburger = () => {
     const [isActive, setIsActive] = useState(false)

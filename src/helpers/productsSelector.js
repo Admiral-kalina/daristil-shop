@@ -1,0 +1,1 @@
+export const getProductSelector = (state, id) => state.products.serverData?.find(el => el.id === Number(id)) || {};

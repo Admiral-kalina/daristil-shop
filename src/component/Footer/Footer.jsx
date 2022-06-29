@@ -1,10 +1,15 @@
 import React from 'react';
 import {Link} from "gatsby";
+
+//styles
+import * as styles from "./styles.module.scss"
+
+//images
 import YoutubeIcon from "../../assets/YoutubeIcon";
 import InstagramIcon from "../../assets/InstagramIcon";
 import TelegramIcon from "../../assets/TelegramIcon";
 import FooterGif from "../../images/footer_.gif";
-import * as styles from "./styles.module.scss"
+
 
 const Footer = () => {
     return (
