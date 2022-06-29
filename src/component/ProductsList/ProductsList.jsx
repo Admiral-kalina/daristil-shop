@@ -1,19 +1,33 @@
 import React from 'react';
-import * as styles from "./styles.module.scss"
-import Index from "../../pages/product";
-
 import {Link} from "gatsby";
-const ProductsList = ({products, language}) => {
+//components
+import ProductItem from "./ProductItem";
+//context
+import {useContextState} from "../../Context/store";
+//helpers
+import {getProductsList} from "../../helpers/productsList";
+//styles
+import * as styles from "./styles.module.scss"
+
+
+
+
+const ProductsList = () => {
+
+    const {state} = useContextState()
+    const products = getProductsList(state)
+    console.log(products)
 
     return (
         <div className={styles.productsList}>
            <div className={styles.container}>
                <div className={styles.table}>
                       {products.map(item =>
-                          <Link to={`/products/${item.id}`}>
-                              <Index key={item.id} products={item} language={language}/>
+                          <Link key={item.id} to={`/product/${item.id}`}>
+                              <ProductItem product={item}/>
+                             <br/>
+                              <hr/>
                           </Link>
-
                       )}
                </div>
            </div>

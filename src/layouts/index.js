@@ -1,7 +1,13 @@
 import React from 'react';
+
+//context
+import StateProvider from "../Context/store";
+
+//components
 import Header from "../component/Header/Header";
 import Footer from "../component/Footer/Footer";
-import StateProvider from "../Context/store";
+
+
 
 const Layout = ({children}) => {
     return (

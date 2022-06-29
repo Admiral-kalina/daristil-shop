@@ -1,4 +1,6 @@
 import React from 'react';
+
+//components
 import Sale from "./Sale/Sale";
 import HeaderBlock from "./HeaderBlock/HeaderBlock";
 

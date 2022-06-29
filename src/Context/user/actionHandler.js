@@ -1,0 +1,1 @@
+export const setLanguage = (payload) => ({type: "SET_LANGUAGE", payload})

@@ -1,12 +1,9 @@
 import React from 'react';
 import {Link} from "gatsby";
-
 //components
 import Hamburger from "./Hamburger";
-
 //helpers
 import SelectLanguage from "../../SelectLanguage/SelectLanguage";
-
 //styles
 import * as styles from "./styles.module.scss"
 
@@ -19,9 +16,8 @@ const HeaderBlock = () => {
             <div className={styles.block}>
               <Hamburger />
                 <div>
-                    <ul>
-                        <li className={styles.logoText}><Link to={`/ `}>daristil</Link></li>
-                    </ul>
+                   <Link to={``}>daristil</Link>
+
                 </div>
                 <SelectLanguage/>
             </div>
