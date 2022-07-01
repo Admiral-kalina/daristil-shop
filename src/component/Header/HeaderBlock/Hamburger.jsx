@@ -4,6 +4,7 @@ import {useState} from 'react';
 import * as style from "./styles.module.scss"
 //images
 import modalDs from "../../../images/ds_.gif";
+import CatalogBanner from "../../UI/CatalogBanner/CatalogBanner";
 
 const Hamburger = () => {
     const [isActive, setIsActive] = useState(false)
@@ -20,8 +21,7 @@ const Hamburger = () => {
            </div>
            <div className={` ${style.modal} ${isActive? style.modalActive: ''}`}>
                <div className={style.content}>
-                   <p>WOMAN</p>
-                   <p>MAN</p>
+                   <CatalogBanner/>
                    <img className={style.modalGif} src={modalDs} alt=""/>
                </div>
            </div>
