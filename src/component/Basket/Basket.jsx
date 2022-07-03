@@ -1,6 +1,12 @@
 import React, {useEffect, useState} from 'react';
-import shoppingBag from "../../images/shopping-bag.png";
+
+//components
 import BasketModal from "./BasketModal";
+
+//assets
+import shoppingBag from "../../images/shopping-bag.png";
+
+//styles
 import * as styles from "./styles.module.scss"
 
 const Basket = () => {

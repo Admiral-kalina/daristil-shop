@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 //components
-import Portal from "../Portal";
+import Modal from "../Modal/Modal";
 
 //helpers
 import {useWindowDimension} from "../../hooks/useDimension";
@@ -11,7 +11,7 @@ import * as styles from "./styles.module.scss";
 
 
 const BasketModal = ({open, products = [], onClose}) => {
-    const [width, length] = useWindowDimension()
+    const [width] = useWindowDimension()
 
     const [isOpen, setOpen] = useState(open)
     // const handleScroll = useDisableScroll(isOpen)
@@ -35,17 +35,16 @@ const BasketModal = ({open, products = [], onClose}) => {
     }
 
  const modalContent = <>
-     <div className={styles.modalWrapper}>
+     <div className={styles.basketModalWrapper}>
          Hello bitch
          Is you want my chilapchich?
      </div>
  </>
+    const isMobile =  width < 1020;
 
     if(isOpen){
-        return width < 1020?
-            <Portal>
-            {modalContent}
-        </Portal>
+        return isMobile?
+            <Modal content={modalContent} onClose={closeModal} open={isOpen}/>
             :
             <div className={styles.modalFull}>
                 {modalContent}

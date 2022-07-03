@@ -25,7 +25,7 @@ export default class Portal extends Component {
 
         // Check that this.el is not null before using ReactDOM.createPortal
         if (this.el) {
-            return ReactDOM.createPortal(children, this.el)
+            return ReactDOM.createPortal(children, portalRoot)
         } else {
             return null
         }

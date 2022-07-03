@@ -1,13 +1,14 @@
-import {useWindowDimension} from "../../hooks/useDimension";
-import React, {useEffect, useState} from "@types/react";
-import * as styles from "../Basket/styles.module.scss";
+import React, {useEffect, useState} from "react";
+
+//helpers
 import Portal from "../Portal";
 
-const Modal = ({open, products = [], onClose, content}) => {
-    const [width, length] = useWindowDimension()
+//styles
+import * as styles from "../Basket/styles.module.scss";
 
-    const [isOpen, setOpen] = useState(open)
-    // const handleScroll = useDisableScroll(isOpen)
+
+const Modal = ({open, products = [], onClose, content}) => {
+    const [isOpen, setOpen] = useState(open);
 
     useEffect(() => {
         if(isOpen){
@@ -29,9 +30,11 @@ const Modal = ({open, products = [], onClose, content}) => {
 
     if(isOpen){
            return <Portal>
-               <div className={styles.overlay} onClick={closeModal}></div>
+                   <div className={styles.overlay} onClick={closeModal}/>
                <div className={styles.modalWrapper}>
-                   {content}
+                   <div className={styles.modalContentWrapper}>
+                       {content}
+                   </div>
                </div>
             </Portal>
 
