@@ -4,7 +4,7 @@ import {useState} from 'react';
 import * as style from "./styles.module.scss"
 //images
 import modalDs from "../../../images/ds_.gif";
-import CatalogBar from "../../UI/CatalogBanner/CatalogBar";
+import CatalogBar from "../../CatalogBaner/CatalogBar";
 
 const Hamburger = () => {
     const [isActive, setIsActive] = useState(false)

@@ -60,8 +60,7 @@ const ProductItem = ({products, product, fullInformation = false}) => {
            {/*<p>{product[getLanguagePath('Description', state.user.language)]}</p>*/}
            <p>{product.priceUSD} $</p>
        </div>
-       )
-   }
+    )
 };
 
 export default ProductItem;

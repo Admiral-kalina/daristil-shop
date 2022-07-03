@@ -16,7 +16,7 @@ const Layout = ({children}) => {
             <Header/>
             {children}
             <Footer/>
-                </StateProvider>
+            </StateProvider>
         </div>
     );
 };

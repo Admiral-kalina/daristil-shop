@@ -47,7 +47,7 @@ const BasketModal = ({open, products = [], onClose}) => {
             {modalContent}
         </Portal>
             :
-            <div className={styles.modal}>
+            <div className={styles.modalFull}>
                 {modalContent}
             </div>
 

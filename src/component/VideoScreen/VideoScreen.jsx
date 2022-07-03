@@ -3,7 +3,7 @@ import React from 'react';
 import mainVideo from '../../images/daristil_preview.mp4';
  //styles
 import * as styles from "./styles.module.scss"
-import CatalogBar from "../UI/CatalogBanner/CatalogBar";
+import CatalogBar from "../CatalogBaner/CatalogBar";
 
 const VideoScreen = () => {
     return (

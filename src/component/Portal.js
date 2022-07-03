@@ -29,6 +29,5 @@ export default class Portal extends Component {
         } else {
             return null
         }
-
     }
 }

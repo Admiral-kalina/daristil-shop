@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="add banner">
-      <change afterPath="$PROJECT_DIR$/src/component/Basket/BasketModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Basket/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Portal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/UI/CatalogBanner/CatalogBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useDimension.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/category/index.js" afterDir="false" />
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="add banner, productItem">
+      <change afterPath="$PROJECT_DIR$/src/pages/product/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Basket/BasketModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Basket/BasketModal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/Hamburger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/Hamburger.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Portal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Portal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/SelectLanguage/SelectLanguage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SelectLanguage/SelectLanguage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/UI/CatalogBanner/CatalogBanner.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/UI/CatalogBanner/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/UI/CatalogBanner/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/VideoScreen/VideoScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/VideoScreen/VideoScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/catalog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Basket/Basket.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/product/index.js" afterDir="false" />
-    </list>
-    <list id="81d4195b-6e0f-44d0-bb3e-35d53043471b" name="Changes by vladyslavdubyna" comment="Changes by vladyslavdubyna">
-      <change afterPath="$PROJECT_DIR$/src/helpers/filterData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ProductsList/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/UI/CatalogBanner/CatalogBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CatalogBaner/CatalogBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/UI/CatalogBanner/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CatalogBaner/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/VideoScreen/VideoScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/VideoScreen/VideoScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
+    </list>
+    <list id="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" name="Changes by vladyslavdubyna" comment="">
+      <change beforePath="$PROJECT_DIR$/src/component/Basket/Basket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Basket/Basket.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Basket/BasketModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Basket/BasketModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Basket/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Basket/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Portal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Portal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/product/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,31 +45,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx">
-      <ranges>
-        <range start1="4" end1="8" start2="4" end2="5" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="14" end1="15" start2="11" end2="12" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="16" end1="19" start2="13" end2="13" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="27" end1="29" start2="21" end2="21" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
-      </ranges>
-    </file>
     <file path="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx">
       <ranges>
-        <range start1="0" end1="1" start2="0" end2="2" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="3" end1="3" start2="4" end2="5" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="5" end1="5" start2="7" end2="11" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="6" end1="7" start2="12" end2="14" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
-        <range start1="9" end1="15" start2="16" end2="61" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+        <range start1="10" end1="11" start2="10" end2="10" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="12" end1="12" start2="11" end2="12" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="13" end1="15" start2="13" end2="13" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="18" end1="20" start2="16" end2="16" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="21" end1="55" start2="17" end2="18" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="62" end1="64" start2="25" end2="26" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
       </ranges>
     </file>
-    <file path="$PROJECT_DIR$/src/pages/product/index.js">
+    <file path="$PROJECT_DIR$/src/component/Portal.js">
       <ranges>
-        <range start1="1" end1="1" start2="1" end2="2" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="3" end1="3" start2="4" end2="5" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
-        <range start1="6" end1="8" start2="8" end2="10" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
-        <range start1="10" end1="11" start2="12" end2="12" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
-        <range start1="13" end1="15" start2="14" end2="15" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
-        <range start1="19" end1="24" start2="19" end2="26" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+        <range start1="27" end1="28" start2="27" end2="28" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="31" end1="32" start2="31" end2="31" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/component/Basket/BasketModal.jsx">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="4" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="13" end1="14" start2="13" end2="14" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="37" end1="38" start2="37" end2="38" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="42" end1="42" start2="42" end2="43" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="44" end1="48" start2="45" end2="47" changelist="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" />
+        <range start1="49" end1="50" start2="48" end2="49" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
       </ranges>
     </file>
   </component>
@@ -127,11 +115,11 @@
       <recent name="C:\Users\user\Desktop\work\daristil-shop\src\component\Catalog\ProductItem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Q:\cur\daristil-shop\src\component\CatalogBaner" />
+      <recent name="Q:\cur\daristil-shop\src\component\UI" />
       <recent name="C:\Users\user\Desktop\work\daristil-shop\src\component\UI" />
       <recent name="C:\Users\user\Desktop\work\daristil-shop\src\images" />
       <recent name="Q:\proj\daristil-shop" />
-      <recent name="Q:\proj\daristil-shop\src\pages\product" />
-      <recent name="Q:\proj\daristil-shop\src\component" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -250,6 +238,11 @@
           <url>file://$PROJECT_DIR$/src/component/Footer/Footer.jsx</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/Portal.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
