@@ -25,5 +25,12 @@ module.exports = {
             },
             __key: "images"
         },
+        {
+            resolve: 'gatsby-plugin-portal',
+            options: {
+                key: 'portal',
+                id: 'portal',
+            },
+        },
         ]
 };
