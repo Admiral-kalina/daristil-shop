@@ -15,9 +15,9 @@ const Footer = () => {
     return (
         <footer>
             <nav>
-                <li><Link to={`/About`}>about</Link></li>
-                <li><Link to={`/Help`}>help</Link></li>
-                <li><Link to={`/FAQ`}>faq</Link></li>
+                <li><Link to={`/about`}>about</Link></li>
+                <li><Link to={`/help`}>help</Link></li>
+                <li><Link to={`/faq`}>faq</Link></li>
             </nav>
             <div className={styles.footer_contacts}>
                 <div className={styles.footer_email}>

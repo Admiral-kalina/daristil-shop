@@ -32,8 +32,7 @@ const SelectLanguage = () => {
 
     return  <div className={styles.nav}>
         <button onClick={handleChange}>{state.user.language}</button>
-        <li><img src={user} alt=""/></li>
-        <li><img src={shoppingBag} alt=""/></li>
+
     </div>
 }
 

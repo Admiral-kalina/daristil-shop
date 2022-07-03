@@ -3,12 +3,12 @@ import React from 'react';
 import mainVideo from '../../images/daristil_preview.mp4';
  //styles
 import * as styles from "./styles.module.scss"
-import CatalogBanner from "../UI/CatalogBanner/CatalogBanner";
+import CatalogBar from "../UI/CatalogBanner/CatalogBar";
 
 const VideoScreen = () => {
     return (
         <section className={styles.videoBlock}>
-            <CatalogBanner/>
+            <CatalogBar/>
             <video
 
                 className={styles.video}

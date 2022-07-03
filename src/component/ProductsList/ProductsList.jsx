@@ -25,8 +25,6 @@ const ProductsList = () => {
                       {products.map(item =>
                           <Link key={item.id} to={`/product/${item.id}`}>
                               <ProductItem product={item}/>
-                             <br/>
-                              <hr/>
                           </Link>
                       )}
                </div>

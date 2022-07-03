@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="created context store, navigation, refactoring">
-      <change afterPath="$PROJECT_DIR$/src/component/UI/CatalogBanner/CatalogBanner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/UI/CatalogBanner/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/VideoScreen/VideoScreen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/VideoScreen/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/daristil_preview.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/catalog/index.js" afterDir="false" />
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="add banner">
+      <change afterPath="$PROJECT_DIR$/src/component/Basket/BasketModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Basket/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Modal/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Portal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/UI/CatalogBanner/CatalogBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useDimension.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/category/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/Hamburger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/Hamburger.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/SelectLanguage/SelectLanguage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SelectLanguage/SelectLanguage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/UI/CatalogBanner/CatalogBanner.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/UI/CatalogBanner/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/UI/CatalogBanner/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/VideoScreen/VideoScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/VideoScreen/VideoScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/catalog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Basket/Basket.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/product/index.js" afterDir="false" />
     </list>
-    <list id="81d4195b-6e0f-44d0-bb3e-35d53043471b" name="Changes by vladyslavdubyna" comment="Changes by vladyslavdubyna" />
+    <list id="81d4195b-6e0f-44d0-bb3e-35d53043471b" name="Changes by vladyslavdubyna" comment="Changes by vladyslavdubyna">
+      <change afterPath="$PROJECT_DIR$/src/helpers/filterData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/product/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +55,35 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/component/ProductsList/ProductsList.jsx">
+      <ranges>
+        <range start1="4" end1="8" start2="4" end2="5" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="14" end1="15" start2="11" end2="12" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="16" end1="19" start2="13" end2="13" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="27" end1="29" start2="21" end2="21" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/component/ProductsList/ProductItem.jsx">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="2" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="3" end1="3" start2="4" end2="5" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="5" end1="5" start2="7" end2="11" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="6" end1="7" start2="12" end2="14" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+        <range start1="9" end1="15" start2="16" end2="61" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/pages/product/index.js">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="2" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="3" end1="3" start2="4" end2="5" changelist="81d4195b-6e0f-44d0-bb3e-35d53043471b" />
+        <range start1="6" end1="8" start2="8" end2="10" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+        <range start1="10" end1="11" start2="12" end2="12" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+        <range start1="13" end1="15" start2="14" end2="15" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+        <range start1="19" end1="24" start2="19" end2="26" changelist="556f02cc-99e1-4905-908a-183d95ecb0d7" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,25 +98,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/daristil-shop/src/images",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Q:/cur/daristil-shop&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\work\daristil-shop\src\images" />
@@ -118,6 +169,9 @@
       <workItem from="1656433194788" duration="11672000" />
       <workItem from="1656482631818" duration="806000" />
       <workItem from="1656653668604" duration="14129000" />
+      <workItem from="1656704760501" duration="1082000" />
+      <workItem from="1656758184680" duration="19375000" />
+      <workItem from="1656830782793" duration="7212000" />
     </task>
     <task id="LOCAL-00001" summary="add footer&#10;add fonts&#10;rework routing&#10;fixed">
       <created>1655899900207</created>
@@ -154,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656268225737</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add banner">
+      <created>1656704889532</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656704889533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +240,8 @@
     <MESSAGE value="new Context" />
     <MESSAGE value="context v1" />
     <MESSAGE value="created context store, navigation, refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="created context store, navigation, refactoring" />
+    <MESSAGE value="add banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="add banner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -187,7 +249,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/component/Footer/Footer.jsx</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

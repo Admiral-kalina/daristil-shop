@@ -1,0 +1,25 @@
+.modalWrapper{
+  background-color: peru;
+  width: 500px;
+  height:250px;
+  position: absolute;
+  top: 50%;
+  margin-top: -175px;
+  left: 50%;
+  margin-left: -250px;
+  z-index: 5;
+  overflow: hidden;
+}
+.overlay{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left:0;
+  background-color: aqua;
+  opacity: 0.3;
+
+}
+.basketWrapper{
+  position: relative;
+}
