@@ -1,6 +1,8 @@
 import React from 'react';
+
 //context
 import {useContextState} from "../../Context/store";
+
 //helpers
 import {getLanguagePath} from "../../helpers/language";
 import {getProductSelector} from "../../helpers/productsSelector";

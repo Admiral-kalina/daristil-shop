@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
+
 //context
 import {useContextState} from "../../Context/store";
+
 //helpers
 import {getLanguagePath} from "../../helpers/language";
+
+//styles
+import * as styles from "./styles.module.scss"
+import ProductsList from "./ProductsList";
+
 
 const ProductItem = ({products, product, fullInformation = false}) => {
     const [showMore, setShowMore] = useState(false)
