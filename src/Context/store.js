@@ -12,6 +12,9 @@ const initial = {
     },
     user: {
         language: 'EN',
+    },
+    localStorage:{
+        basket: [{'a':'a'}]
     }
 };
 

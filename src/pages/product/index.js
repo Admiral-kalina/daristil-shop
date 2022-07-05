@@ -13,21 +13,35 @@ import {getProductsList} from "../../helpers/productsList";
 
 //styles
 import * as styles from "../../component/ProductsList/styles.module.scss";
+import {setLocalStorage} from "../../Context/localStorage/actionHandler";
+import {localStorageReducer} from "../../Context/localStorage/reducer";
 
 const Product = ({ id }) => {
     const [showMore, setShowMore] = useState(false)
-    const {state} = useContextState();
+    // const [items, setItems] = useState(JSON.parse(localStorage.getItem('daristil_products')) || [])
+    // const [total, setTotal] = useState(0)
+    // const [goods, setGoods] = useState([])
+    const {state, dispatch} = useContextState();
     const product = getProductSelector(state, id)
     const products = getProductsList(state);
-    // console.log(product?.Picture[0]?.url)
-
     const sizes = ['XS','S','XL'];
+
+
+    console.log(state)
+
+    const addingProductToBasket = () =>{
+        const row = localStorage.getItem('daristil_products') || [];
+        dispatch(setLocalStorage({'asdf':'aaa'}))
+        dispatch(setLocalStorage({'aqqw':'aaa'}))
+        console.log(state)
+        /*localStorage.setItem('daristil_products', JSON.stringify(row))*/
+        console.log(row)
+    }
 
     return (
          <div
              onClick={() => {}}
              >
-
              <div className={styles.fullInformationProductWrapper}>
                  <div className={styles.productRow}>
                      <div className={styles.productColumn}>
@@ -46,12 +60,11 @@ const Product = ({ id }) => {
                              }
                          </select>
                          <p>{product.priceUSD} $</p>
-                         <button>BUY</button>
+                         <button onClick={addingProductToBasket}>BUY</button>
                      </div>
                  </div>
                  <button onClick={()=> setShowMore(prev => !prev)}>{showMore?'HIDE':'SHOW MORE'}</button>
                  {showMore && <ProductsList products={products}/>
-
                  }
              </div>
              )
