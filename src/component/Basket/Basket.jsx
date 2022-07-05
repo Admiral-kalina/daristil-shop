@@ -11,12 +11,18 @@ import * as styles from "./styles.module.scss"
 
 const Basket = () => {
     const [modalOpen, setModalOpen] = useState(false);
-
-
-    useEffect(() => {
-        const raw = localStorage.getItem("daristil_products");
-        const data = JSON.parse(raw);
-    }, [])
+    const [selectedProducts, setSelectedProducts] = useState(1)
+    // localStorage.setItem("daristil_products", selectedProducts)
+    // useEffect(() => {
+    //     const data = [{id:'hui'},{id:'pizda'}]
+    //     localStorage.setItem("daristil_products", JSON.stringify(data))
+    //     const raw = localStorage.getItem("daristil_products");
+    //     const parsedData = JSON.parse(raw)
+    //     console.log(parsedData)
+    //     setSelectedProducts(prev => prev +1)
+    //     console.log(selectedProducts)
+    //
+    // }, [])
 
     const toggleModal = () => {
         setModalOpen(!modalOpen)
