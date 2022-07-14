@@ -1,0 +1,36 @@
+
+.fullInformationProductWrapper{
+  display: flex;
+  flex-direction: column;
+  .productGallery{
+
+  }
+  .productDetails{
+
+  }
+  .mainImg{
+    width: 400px;
+    height: 400px;
+  }
+  .productRow{
+    display: flex;
+  }
+  .showBtn{
+    margin: 0 auto;
+    width: 250px;
+    height: 45px;
+    color: #fff;
+    background-color: #1d1d1d;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+    &:hover{
+      transform: scale(1.1);
+      background-color: #ff4c12;
+      color: #1d1d1d;
+    }
+  }
+}

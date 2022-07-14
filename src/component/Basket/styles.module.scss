@@ -21,7 +21,11 @@
   z-index: 3;
 }
 .basketWrapper{
-  position: relative;
+  cursor: pointer;
+  img{
+    margin-top: 3px;
+    height: 24px;
+  }
 }
 .basketModalWrapper{
   text-align: center;

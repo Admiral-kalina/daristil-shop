@@ -19,12 +19,13 @@ const HeaderBlock = () => {
             <div className={styles.block}>
               <Hamburger />
                 <div>
-                   <Link to={`/`}>daristil</Link>
-
+                   <Link className={styles.homeLink} to={`/`}>daristil</Link>
                 </div>
-                <SelectLanguage/>
-                <img src={user} alt=""/>
-                <Basket/>
+              <div className={styles.selectors}>
+                  <SelectLanguage/>
+                  {/*<img src={user} alt=""/>*/}
+                  <Basket/>
+              </div>
             </div>
         </section>
     );

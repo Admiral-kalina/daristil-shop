@@ -4,8 +4,8 @@ import {useContextState} from "../../Context/store";
 //action
 import {setLanguage} from "../../Context/user/actionHandler";
 //assets
-import user from "../../images/user.png";
-import shoppingBag from "../../images/shopping-bag.png";
+
+
 //styles
 import * as styles from "../Header/HeaderBlock/styles.module.scss";
 
@@ -30,9 +30,8 @@ const SelectLanguage = () => {
         dispatch(setLanguage(Object.values(LANGUAGES)[count + 1]))
     }
 
-    return  <div className={styles.nav}>
+    return  <div className={styles.languageSelector}>
         <button onClick={handleChange}>{state.user.language}</button>
-
     </div>
 }
 

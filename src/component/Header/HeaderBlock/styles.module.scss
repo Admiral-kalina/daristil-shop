@@ -1,73 +1,46 @@
 .section{
-    height: 60px;
-    width: 100%;
-    background-color: black;
-    color: #fff;
-    position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  position: relative;
 }
 
 .block{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 40px;
-    height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+  height: 100%;
 }
 
-.burger{
-   visibility: hidden;
-    height: 30px;
-    width: 20px;
-    padding: 0 10px;
-    margin: 0 25px;
-    cursor: pointer;
-    position: relative;
-    :first-child{
-        position: absolute;
-        top: 5px;
-        content: '';
-        background-color: #fff;
-        display: block;
-        width: 30px;
-        height: 4px;
-    }
-    :last-child{
-        position: absolute;
-        top: 20px;
-        content: '';
-        background-color: #fff;
-        display: block;
-        width: 30px;
-        height: 4px;
-    }
-    :active{
-        background-color: red;
-    }
-}
+
 @media screen and (max-width: 1024px){
-    .burger{
-        visibility: visible;
-    }
+  .burger{
+    visibility: visible;
+  }
 }
 
 .logoText{
   list-style: none;
-    font-size: 24px;
+  font-size: 24px;
 }
 
-.nav{
+.languageSelector{
+  button{
+    font-size: 22px;
     width: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+  }
 }
 
 .headerMenuIcon {
   transition: all 0.3s;
   display: block;
   position: relative;
-  top: 0px;
+  top: 0;
   left: 10px;
   width: 100px;
   height: 18px;
@@ -76,18 +49,18 @@
 
   span {
     top: 8px;
-    left: 0px;
+    left: 0;
     position: absolute;
     width: 30px;
     height: 2px;
     background-color: #fff;
     transition: all 0.3s;
     &:first-child {
-      top: 0px;
+      top: 0;
     }
     &:last-child {
       top: auto;
-      bottom: 0px;
+      bottom: 0;
     }
   }
 
@@ -99,7 +72,7 @@
 .headerMenuIconActive {
   display: block;
   position: relative;
-  top: 0px;
+  top: 0;
   left: 10px;
   width: 100px;
   height: 18px;
@@ -108,7 +81,7 @@
 
   span {
     top: 8px;
-    left: 0px;
+    left: 0;
     position: absolute;
     width: 30px;
     height: 2px;
@@ -167,28 +140,58 @@
   opacity: 1;
   transition: 0.4s ;
   width: 100%;
-  //animation: modal-animation 0.4s forwards;
-
-  //@keyframes modal-animation {
-  //  0%{
-  //    //height: 0;
-  //
-  //    opacity: 0;
-  //  }
-  //  100%{
-  //    transform: scaleX(100%);
-  //    opacity: 1;
-  //    width: 100%;
-  //    //height: calc(100vh - 90px);
-  //  }
-  //}
-  }
-
-
-  .modalGif{
-    width: 100px;
-    height: 100px;
 
 }
 
+.modalGif{
+  width: 100px;
+  height: 100px;
+}
 
+
+.homeLink{
+  display: inline-block;
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  &:hover {
+    transform: scale(1.2);
+    color: #ff4c12;
+  }
+}
+
+.burger{
+  visibility: hidden;
+  height: 30px;
+  width: 20px;
+  padding: 0 10px;
+  margin: 0 25px;
+  cursor: pointer;
+  position: relative;
+  :first-child{
+    position: absolute;
+    top: 5px;
+    content: '';
+    background-color: #fff;
+    display: block;
+    width: 30px;
+    height: 4px;
+  }
+  :last-child{
+    position: absolute;
+    top: 20px;
+    content: '';
+    background-color: #fff;
+    display: block;
+    width: 30px;
+    height: 4px;
+  }
+  :active{
+    background-color: red;
+  }
+}
+
+.selectors{
+  display: flex;
+}
