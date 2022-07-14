@@ -12,7 +12,7 @@ import {getProductSelector} from "../../helpers/productsSelector";
 import {getProductsList} from "../../helpers/productsList";
 
 //styles
-import * as styles from "../../component/ProductsList/styles.module.scss";
+import * as styles from "./styles.module.scss";
 import {setLocalStorage} from "../../Context/localStorage/actionHandler";
 import {localStorageReducer} from "../../Context/localStorage/reducer";
 
@@ -30,12 +30,13 @@ const Product = ({ id }) => {
     console.log(state)
 
     const addingProductToBasket = () =>{
-        const row = localStorage.getItem('daristil_products') || [];
-        dispatch(setLocalStorage({'asdf':'aaa'}))
-        dispatch(setLocalStorage({'aqqw':'aaa'}))
-        console.log(state)
-        /*localStorage.setItem('daristil_products', JSON.stringify(row))*/
-        console.log(row)
+
+        // const row = localStorage.getItem('daristil_products') || [];
+        // dispatch(setLocalStorage({'asdf':'aaa'}))
+        // dispatch(setLocalStorage({'aqqw':'aaa'}))
+        // console.log(state)
+        // /*localStorage.setItem('daristil_products', JSON.stringify(row))*/
+        // console.log(row)
     }
 
     return (
@@ -44,10 +45,10 @@ const Product = ({ id }) => {
              >
              <div className={styles.fullInformationProductWrapper}>
                  <div className={styles.productRow}>
-                     <div className={styles.productColumn}>
+                     <div className={styles.productGallery}>
                          <img className={styles.mainImg} src={`https://admin.daristil.com${product.Picture && product?.Picture[0].url}`}/>
                      </div>
-                     <div className={styles.productColumn}>
+                     <div className={styles.productDetails}>
                          <p>{product[getLanguagePath('Name', state.user.language)]}</p>
                          <hr/>
                          <p>{product[getLanguagePath('Description', state.user.language)]}</p>
@@ -63,11 +64,10 @@ const Product = ({ id }) => {
                          <button onClick={addingProductToBasket}>BUY</button>
                      </div>
                  </div>
-                 <button onClick={()=> setShowMore(prev => !prev)}>{showMore?'HIDE':'SHOW MORE'}</button>
+                 <button className={styles.showBtn} onClick={()=> setShowMore(prev => !prev)}>{showMore?'HIDE':'SHOW MORE'}</button>
                  {showMore && <ProductsList products={products}/>
                  }
              </div>
-             )
          </div>
     );
 };

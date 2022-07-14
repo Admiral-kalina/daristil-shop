@@ -32,7 +32,7 @@ const Footer = () => {
                 </nav>
             </div>
             <img className={styles.footer_gif} src={FooterGif} alt=""/>
-            <p className={styles.copyright}>© 2021 daristil</p>
+            <p className={styles.copyright}>© 2022 daristil</p>
         </footer>
     );
 };

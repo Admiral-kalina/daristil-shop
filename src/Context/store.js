@@ -14,7 +14,7 @@ const initial = {
         language: 'EN',
     },
     localStorage:{
-        basket: [{'a':'a'}]
+        basket: []
     }
 };
 
