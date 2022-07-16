@@ -37,6 +37,7 @@ const BasketModal = ({open, products = [], onClose}) => {
  const modalContent = <>
      <div className={styles.basketModalWrapper}>
          Basket
+
      </div>
  </>
     const isMobile =  width < 1020;
