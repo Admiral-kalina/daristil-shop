@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="1.1">
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" name="Changes by vladyslavdubyna" comment="upgrade modal" />
@@ -122,7 +122,7 @@
       <workItem from="1657131430517" duration="1542000" />
       <workItem from="1657543696739" duration="2825000" />
       <workItem from="1657547007923" duration="5588000" />
-      <workItem from="1657968790404" duration="1103000" />
+      <workItem from="1657968790404" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="add footer&#10;add fonts&#10;rework routing&#10;fixed">
       <created>1655899900207</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657969530941</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.2">
+      <created>1657970126118</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657970126118</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +215,8 @@
     <MESSAGE value="add banner" />
     <MESSAGE value="add localStorage reducer" />
     <MESSAGE value="1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+    <MESSAGE value="1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
