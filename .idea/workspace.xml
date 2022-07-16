@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="add localStorage reducer">
+    <list default="true" id="556f02cc-99e1-4905-908a-183d95ecb0d7" name="Changes" comment="1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Context/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Basket/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Basket/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/HeaderBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/HeaderBlock/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/HeaderBlock/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ProductsList/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ProductsList/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/SelectLanguage/SelectLanguage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SelectLanguage/SelectLanguage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/shopping-bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/shopping-bag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/product/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/product/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/product/styles.module.scss" afterDir="false" />
     </list>
     <list id="073c91ac-d8b8-4ab4-a2c9-2565398d8e84" name="Changes by vladyslavdubyna" comment="upgrade modal" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Q:/ani/unisphere",
+    "last_opened_file_path": "C:/Users/kalin/OneDrive/Рабочий стол/proba/daristil-shop",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,6 +122,7 @@
       <workItem from="1657131430517" duration="1542000" />
       <workItem from="1657543696739" duration="2825000" />
       <workItem from="1657547007923" duration="5588000" />
+      <workItem from="1657968790404" duration="1103000" />
     </task>
     <task id="LOCAL-00001" summary="add footer&#10;add fonts&#10;rework routing&#10;fixed">
       <created>1655899900207</created>
@@ -182,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657055876617</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.1">
+      <created>1657969530941</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657969530941</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +207,8 @@
     <MESSAGE value="created context store, navigation, refactoring" />
     <MESSAGE value="add banner" />
     <MESSAGE value="add localStorage reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add localStorage reducer" />
+    <MESSAGE value="1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
